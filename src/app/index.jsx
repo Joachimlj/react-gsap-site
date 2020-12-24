@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 import Homepage from "./pages/homepage/";
 import Layout from "./layout/";
+import "./normalize.css";
 
 export default function App() {
   return (
