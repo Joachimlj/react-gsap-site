@@ -6,6 +6,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Header />
+      <main className="site-content">{children}</main>
     </>
   );
 }
