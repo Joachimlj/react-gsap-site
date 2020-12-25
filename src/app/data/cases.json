@@ -1,0 +1,19 @@
+{
+  "cases": [
+    {
+      "id": "1",
+      "title": "Curology",
+      "image": "curology-min.png"
+    },
+    {
+      "id": "2",
+      "title": "Lumin",
+      "image": "lumin-min.png"
+    },
+    {
+      "id": "3",
+      "title": "Yourspace",
+      "image": "yourspace-min.png"
+    }
+  ]
+}

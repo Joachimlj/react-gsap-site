@@ -1,5 +1,8 @@
 import React from "react";
 
+import Case from "./case";
+import { cases } from "../../data/cases.json";
+
 export default function Homepage() {
   return (
     <>
@@ -17,6 +20,16 @@ export default function Homepage() {
             </div>
           </h1>
         </div>
+      </div>
+      <div className="cases">
+        {cases.map((item) => (
+          <Case
+            key={item.id}
+            title={item.title}
+            image={item.image}
+            subtitle={item.subtitle}
+          />
+        ))}
       </div>
     </>
   );
